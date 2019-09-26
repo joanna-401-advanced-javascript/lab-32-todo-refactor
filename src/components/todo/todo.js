@@ -5,33 +5,33 @@ import Modal from "../modal";
 
 import "./todo.scss";
 
-const initialState = {
-  todoList: [],
-  item: {},
-  showDetails: false,
-  details: {},
-};
-
-function reducer(state, action){
-  switch(action.type){
-    case 'change':
-      return {...state.item, [action.data.name]: action.data.value };
-    case 'add':
-      return {...state, todoList: [...state.todoList, action.data], item: {}};
-    case 'delete':
-      return {...state, todoList: action.data};
-    case 'save':
-      return {...state, todoList: state.todoList.map(item =>
-          item._id === action.data._id ? action.data : item
-        )};
-    case 'toggle':
-      return {...state, details: action.data.details, showDetails: action.data.showDetails};
-    default:
-      throw new Error();
-  }
-}
-
 export default function Todo(){
+  const initialState = {
+    todoList: [],
+    item: {},
+    showDetails: false,
+    details: {},
+  };
+
+  function reducer(state, action){
+    switch(action.type){
+      case 'change':
+        return {...state.item, [action.data.name]: action.data.value };
+      case 'add':
+        return {...state, todoList: [...state.todoList, action.data], item: {}};
+      case 'delete':
+        return {...state, todoList: action.data};
+      case 'save':
+        return {...state, todoList: state.todoList.map(item =>
+            item._id === action.data._id ? action.data : item
+          )};
+      case 'toggle':
+        return {...state, details: action.data.details, showDetails: action.data.showDetails};
+      default:
+        throw new Error();
+    }
+  }
+
   // const [item, setItem] = useState(initialState.item);
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -73,7 +73,7 @@ export default function Todo(){
   };
 
   const toggleDetails = id => {
-    let showDetails = ! state.showDetails;
+    let showDetails = !state.showDetails;
     let details = state.todoList.filter( item => item._id === id )[0] || {};
     dispatch({type: 'toggle', data: {details, showDetails} });
     // setState({details, showDetails});

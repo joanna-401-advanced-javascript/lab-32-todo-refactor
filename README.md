@@ -1,22 +1,18 @@
-# LAB - TEMPLATE
+# LAB - 32B
 
-## Project Name
+## To Do Refactor
 
 ### Author: Joanna Arroyo
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR]()
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [styleguide](http://xyz.com) 
 
 ### Modules
-#### `modulename.js`
+#### `index.js` `app.js` `todo.js` `todo-connected.js`
 ##### Exported Values and Methods
 
 ###### `foo(thing) -> string`
@@ -40,9 +36,6 @@ Usage Notes or examples
 #### Tests
 * Unit tests: `npm run test`
 * Lint tests: `npm run lint`
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
 Link to an image of the UML for your application and response to events

@@ -1,0 +1,43 @@
+{
+  "name": "starter-code-27",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "1.14.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-jsonschema-form": "1.8.0",
+    "react-redux": " 7.1.1",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.1.1",
+    "react-test-renderer": "16.9.0",
+    "redux": " 4.0.4",
+    "sass": "^1.22.12",
+    "superagent": "5.1.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "react-styleguidist": "^9.1.16"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint '**/*.js' --fix",
+    "docs": "styleguidist server",
+    "docs:build": "styleguidist build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

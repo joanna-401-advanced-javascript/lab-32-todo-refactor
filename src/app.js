@@ -1,21 +1,17 @@
 import React from 'react';
 
-// Import components here
+// State Only
+// import ToDo from './components/todo/todo.js';
 
-// Import stylesheets here
+// API Connected (Live Data)
+import ToDo from './components/todo/todo-connected.js';
 
-
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <>
-        <h1>Template works!</h1>
-
-        {/* Add components here */}
-
+        <ToDo />
       </>
     );
   }
 }
-
-export default App;

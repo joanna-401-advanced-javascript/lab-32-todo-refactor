@@ -1,5 +1,5 @@
 {
-  "name": "starter-code-27",
+  "name": "class-32-starter-code-todo",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -9,6 +9,7 @@
     "enzyme-adapter-react-16": "1.14.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-jest": "^22.17.0",
+    "node-sass": "^4.12.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-jsonschema-form": "1.8.0",
@@ -18,7 +19,8 @@
     "react-test-renderer": "16.9.0",
     "redux": " 4.0.4",
     "sass": "^1.22.12",
-    "superagent": "5.1.0"
+    "superagent": "5.1.0",
+    "uuid": "3.3.2"
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.18.2",

@@ -9,7 +9,7 @@
     "enzyme-adapter-react-16": "1.14.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-jest": "^22.17.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-jsonschema-form": "1.8.0",

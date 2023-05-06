@@ -15,7 +15,7 @@
     "react-jsonschema-form": "1.8.0",
     "react-redux": " 7.1.1",
     "react-router-dom": "5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "5.0.1",
     "react-test-renderer": "16.9.0",
     "redux": " 4.0.4",
     "sass": "^1.22.12",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-react": "^7.14.3",
-    "react-styleguidist": "^9.1.16"
+    "react-styleguidist": "^13.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
